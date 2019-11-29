@@ -1,0 +1,2 @@
+- The class Line takes in 2 parameters, x1 and x2, that are points on x-axis. The constructor enforces that p1 is always the point on the left side. 
+- You can check if this line overlaps with another line by using the function `check_overlap(self, line)`.
