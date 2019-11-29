@@ -27,6 +27,7 @@ class LRUCache:
         # Cache miss
         except KeyError:
             # Possibly modified to search the data base
+            self.search_source(key)
             return -1
 
     '''
@@ -47,6 +48,7 @@ class LRUCache:
 
         self.cache[key] = value
         self.last_access[key] = float(time())
+        self.write_to_source(key, value)
 
 
     '''
