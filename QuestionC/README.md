@@ -1,4 +1,4 @@
-- In `Muhang_Li_testC.py', a class LRUCache based on orderedlist is provided. It takes in the `max capicity`, `expiration time`, and optionally the `source database` as input. 
+- In `Muhang_Li_testC.py`, a class LRUCache based on orderedlist is provided. It takes in the `max capicity`, `expiration time`, and optionally the `source database` as input. 
 - Every time an item gets accessed, it's first popped out of the ordered dictionary and then put back in to refresh its last used status in the dictionary. In addition to that, the current system time is recorded using the key of the item. The add function is designed to be write through to make sure that the writes are real time. 
 - When the cache is full, keep deleting the last used element in the cache by expiration time. If the cache is still full, delete the cache according to FIFO.
 - The missing functionalities are those that require geolocation, which I have no knowledge of at the moment but I'm willing to learn.
