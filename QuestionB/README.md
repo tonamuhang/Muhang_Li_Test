@@ -1,0 +1,2 @@
+- In the file `Muhang_Li_testB.py`, there are three methods `greater_than(version_1, version_2)`, `equals_to(version_1, version_2)`, and `less_than(version_1, version_2)` provided to compare two version numbers in string.
+- Test cases are provided in the file `Muhang_Li_TestB_UnitTest.py`. I checked the cases where there are invalid inputs, version numbers that have different length, and numbers that have the same length.
